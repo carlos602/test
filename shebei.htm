@@ -1,0 +1,260 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0053)http://service.sh.189.cn/service/mytelecom/deviceInfo -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+ 
+
+
+2016/3/8 9:39 测试
+
+当前 develop 分支 修改
+
+
+
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<TITLE>设备信息</TITLE> <LINK href="设备信息_files/service.css" rel="stylesheet"> <LINK 
+href="设备信息_files/common.css" rel="stylesheet"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16517"></HEAD> 
+<BODY><!-- 头部 --> 
+<SCRIPT src="设备信息_files/jquery-1.10.2.min.js" charset="UTF-8"></SCRIPT>
+ 
+<SCRIPT src="设备信息_files/common.js" type="text/javascript" charset="UTF-8"></SCRIPT>
+ <LINK href="设备信息_files/telecom.css" rel="stylesheet"> 
+<SCRIPT src="设备信息_files/common_head_bj.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT>
+	writeHead(path);
+	
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+   var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//webstat.keysense.com.cn:8080/webstat/";
+    _paq.push(['setTrackerUrl', u+'hkwebstat.php']);
+    _paq.push(['setSiteId', 5]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'hkwebstat.js'; s.parentNode.insertBefore(g,s);
+  })();
+</SCRIPT>
+ <!--[if lte IE 6]> 
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#ie6_div").show();
+})
+</script>
+<![endif]--> <!-- 左部 --> 
+<DIV class="maindiv fix"><LINK href="设备信息_files/service.css" rel="stylesheet">
+			 
+<DIV class="mainleft bgf5">
+<DIV class="info_frame">
+<DIV class="info_img"><IMG src="设备信息_files/info_img.png"></DIV><!-- 设备类型和设备号需修改从session里取 -->
+					 
+<H1>杨旭</H1>
+<DIV id="nowDevice" style="display: none;" crmid="202142965078" dtype="tc_list_kd">KD1066370699</DIV>
+<UL class="fix">
+  <LI><IMG src="设备信息_files/icon1.png">
+  <P>普通会员</P></LI>
+  <LI><IMG src="设备信息_files/icon3.png">
+  <P>手机勋章</P></LI>
+  <LI><IMG src="设备信息_files/kd_lv.png">
+  <P>宽带勋章</P></LI></UL></DIV>
+<DIV class="nav_left">
+<H1><A href="http://service.sh.189.cn/service/account">账户总览</A></H1>
+<H1 class="hasnav">我的信息</H1>
+<UL>
+  <LI><A href="http://service.sh.189.cn/service/mytelecom/cusInfo">客户信息</A></LI>
+  <LI><A 
+  href="http://service.sh.189.cn/service/mytelecom/deviceInfo">设备信息</A></LI></UL>
+<H1 class="hasnav">我的订单</H1>
+<UL>
+  <LI><A href="http://service.sh.189.cn/service/my/AllorderList">所有订单</A></LI>
+  <LI><A 
+  href="http://service.sh.189.cn/service/my/orderListBusiness">网厅订单</A></LI>
+  <LI><A 
+  href="http://service.sh.189.cn/service/my/orderListComplaint">投诉建议订单</A></LI>
+  <LI><A href="http://service.sh.189.cn/service/myOrderInfo/queryInstall?repair=0">装移订单</A></LI></UL>
+<H1 class="hasnav">我的账户</H1>
+<UL>
+  <LI><A 
+  href="http://service.sh.189.cn/service/mytelecom/bindIndex">绑定解绑</A></LI>
+  <LI><A 
+  href="http://service.sh.189.cn/service/mytelecom/update/updateCstPwd">密码安全</A></LI>
+  <LI><A href="http://sh.189.cn/service/AccountManageAction.do?method=init&amp;quickChannel=servicePasswordReset#">百事通卡密码重置</A></LI></UL><!-- <h1><a href="#">我的报障单</a></h1>
+					<h1><a href="#">我的投诉与建议</a></h1> -->
+				 </DIV></DIV>
+<SCRIPT src="设备信息_files/cc.js" charset="utf-8"></SCRIPT>
+			 
+<SCRIPT>
+				$(function(){
+					$(".mainleft .nav_left h1").click(function(){
+						var obj  = $(this);
+						obj.siblings("h1").removeClass("on");
+						obj.siblings("ul").hide();
+						if(obj.attr("class").indexOf("hasnav")>-1){
+							$(this).addClass("on");
+							$(this).next().show();
+						}else{
+							$(this).addClass("on");
+						}
+					});
+				});
+				
+				function menuSelection(i,j){
+					$(".mainleft .nav_left h1").eq(i).addClass("on");
+					$(".mainleft .nav_left h1").eq(i).next().addClass("on");
+					$(".mainleft .nav_left h1").eq(i).next().children("li").eq(j).attr("id","hasnav_on");
+				}
+			</SCRIPT>
+ 
+<DIV class="index-r container detailed-search">
+<DIV class="tc_tab_f borderB">
+<DIV class="tc_tab_frame">
+<DIV class="tc_tab fix tc_tab_frame_ul">
+<UL class="tc_list on" id="numCodeKD1066370699" data='{"ProdNumber":"566","SerialNum":"KD1066370699","desc":"预付费宽带,tc_list_kd"}'>
+  <LI class="tc_list_img tc_list_kd"></LI>
+  <LI class="f14">预付费宽带</LI>
+  <LI class="f18">KD1066370699</LI></UL></DIV></DIV><SPAN 
+class="aleft tc_tab_a"></SPAN> <SPAN class="aright tc_tab_a"></SPAN>			 </DIV>
+<SCRIPT type="text/javascript">
+	var indexNo = '';
+	SetTcTab(indexNo);
+	</SCRIPT>
+									 
+<H1 class="phone_Index_Title bgf5">设备资料</H1>
+<DIV class="tc_frame_tb">
+<TABLE border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR class="cc_tb_title">
+    <TH>设备号</TH>
+    <TD>设备详情</TD></TR>
+  <TR>
+    <TH id="devNo" rowspan="10"></TH>
+    <TD><SPAN class="tdspan">客户名称：</SPAN><SPAN id="AccountName"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">当前状态：</SPAN><SPAN 
+id="CurrentStatus"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">最后变更时间：</SPAN><SPAN id="sHCTPromotionConstrExpireDate"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">号码类型：</SPAN><SPAN id="prodType"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">入网日期（装机日期）：</SPAN><SPAN 
+    id="InstallDate"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">套餐名称：</SPAN><SPAN 
+    id="mainPromotionName"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">套餐开始日期：</SPAN><SPAN 
+      id="promotionStartDate"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">套餐结束日期：</SPAN><SPAN 
+      id="promotionExpireDate"></SPAN></TD></TR>
+  <TR>
+    <TD><SPAN class="tdspan">所属品牌：</SPAN><SPAN 
+  id="ProductName"></SPAN></TD></TR></TBODY></TABLE></DIV>
+<DIV class="prompt-panel txt-main">
+<DIV class="prompt-panel-bd">
+<P class="prompt-hint">温馨提示</P>
+<DIV class="prompt-article article">
+<P>请您在操作完毕后及时退出，以确保您的个人信息安全。</P></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT src="设备信息_files/common_footer.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="设备信息_files/gs.js"></SCRIPT>
+   
+<DIV class="modal modal-prompt pay-modal" id="J_bind_Fail_oness">
+<DIV class="modal-head">
+<P class="J_Modal_Title title"></P><I class="modal-close-icon modal-close"></I>
+	 </DIV>
+<DIV class="modal-bd even tc">
+<DIV class="form-item"><I 
+class="modal-error-icon modal-l modal-icon gutter-mr"></I>			 
+<DIV class="modal-l article tl">
+<P class="modal-article-title" id="detailError_oness">失败</P>
+<P></P></DIV></DIV>
+<DIV class="operate-btns even gutter-pt">
+<DIV class="btn-float cols-50"><A class="sub-btn" href="http://service.sh.189.cn/service/DQlogoutLocalToJT">退出</A>
+			 </DIV>
+<DIV class="btn-float cols-50"><A class="operate-btn sub-btn  modal-close" 
+onclick="javascript:i.modal.close('#J_Pay_Form')" href="http://service.sh.189.cn/service/mytelecom/deviceInfo#">取消</A>
+			 </DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+$(function(){
+	
+	var devNo = eval("("+$(".tc_list.on").attr("data")+")").SerialNum;
+	queryDeviceInfo(devNo);
+	
+	
+});
+
+
+//切换设备
+function changeDevice(data){
+	$("#AccountName").empty();
+	$("#CurrentStatus").empty();
+	$("#sHCTPromotionConstrExpireDate").empty();
+	$("#prodType").empty();
+	$("#InstallDate").empty();
+	$("#mainPromotionName").empty();
+	$("#promotionStartDate").empty();
+	$("#promotionExpireDate").empty();
+	$("#ProductName").empty();
+	$("#devNo").empty();
+	
+	var devNo = data.SerialNum;
+	queryDeviceInfo(devNo);
+	
+}
+
+function queryDeviceInfo(devNo){
+	
+	$.ajax({
+		type:"POST",
+		dataType:"json",
+		data:{"devNo":devNo},
+		url:""+path+"/my/deviceinfo.do",
+		beforeSend : function(){
+			$.MyCommon.PageLoading({ sleep: 15000,opacity:0.7});
+		},
+		success : function(data){
+			$.MyCommon.removeLoading();
+			if(data.CODE=='0'){
+				$("#AccountName").html(data.RESULT.AccountName);
+				$("#CurrentStatus").html(data.RESULT.CurrentStatus);
+				$("#sHCTPromotionConstrExpireDate").html(data.RESULT.sHCTPromotionConstrExpireDate);
+				$("#prodType").html(data.RESULT.prodType);
+				$("#InstallDate").html(data.RESULT.InstallDate);
+				$("#mainPromotionName").html(data.RESULT.mainPromotionName);
+				$("#promotionStartDate").html(data.RESULT.promotionStartDate);
+				$("#promotionExpireDate").html(data.RESULT.sHCTPromotionConstrExpireDate);
+				$("#ProductName").html(data.RESULT.ProductName);
+				$("#devNo").html(data.RESULT.devNo);
+			}else{
+				
+				
+			}
+			
+			
+		}
+	});
+}
+
+$("document").ready(function(){
+	leftnav("1","1");  //高亮，默认是0开始计数
+});
+
+</SCRIPT>
+ 
+<SCRIPT src="设备信息_files/PerfectLoad.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="设备信息_files/telecom.js" charset="utf-8"></SCRIPT>
+ 
+<SCRIPT src="设备信息_files/index_test.js" charset="utf-8"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">$(function(){loadD();});</SCRIPT>
+	 </BODY></HTML><!-- <h1 class="phone_Index_Title bgf5">客户信息</h1>
+			
+			<div class="border  padding20">以下资料为您在上海办理业务时留下的用户信息，如与您的实际信息不符，请您前往营业厅进行更正</div> -->
